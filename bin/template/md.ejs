@@ -1,15 +1,11 @@
 ---
 title: <%= title %>
-date: 2021-04-20
+date: <%= date %>
 tags:
-  - Tool
-  - flutter
-  - CSS
-  - JavaScript
-author: Long
+  - <%= tags.join("\n  - "); %>
+author: <%= author %>
 featuredimg: '<%= image %>'
 summary: <%= summary %>
 ---
 > <%= title %>
 
-#### js中的防抖函数
